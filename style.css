@@ -1,0 +1,24 @@
+.menunavegacao{
+    width: 80%;
+    margin: auto;
+
+
+}
+
+ul{
+    background-color: red;
+    display: flex;
+    justify-content: space-evenly;
+    height: 200PX;
+}
+li{
+    padding: 20px;
+}
+
+h1{
+    color: brown;
+    left: 300px;
+    font-size: 100px;
+
+}
+
