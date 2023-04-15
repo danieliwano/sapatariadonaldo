@@ -5,6 +5,20 @@
 
 }
 
+.ul{
+    background-color: blue;
+    font-size: medium;
+    display: flex;
+    justify-content: space-evenly;
+    height: 200PX;
+}
+.li{
+    padding: 10px;
+    color:azure;
+}
+
+
+
 ul{
     background-color: red;
     display: flex;
