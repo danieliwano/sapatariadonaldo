@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Marck+Script&display=swap');
 
+:root {
+    --cor-principal: #8B4513;
+    --fonte-principal: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body{
+    font-family: var(--fonte-principal);
+
+}
 .menunavegacao{
     width: 80%;
     margin: auto;
@@ -33,39 +42,73 @@ background-color: rgb(221, 181, 148);
     
 
 }
+header{
+    height: 100px;
+    width:100%;
 
-.ul{
-    background-color: blue;
-    font-size: medium;
-    display: flex;
-    justify-content: space-evenly;
-    height: 200PX;
 }
-.li{
-    padding: 10px;
-    color:rgb(255, 255, 255);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-style: normal;
-}
-
-
-
 ul{
-    background-color: 
-    #8f6555 ;
-    display: flex;
-    justify-content: space-evenly;
-    height: 80PX;
-    
-}
-li{
-    padding: 20px;
+height: 100px;
+width: 100%;
+
 }
 
+.menuopcoes ul {
+    display: flex;
+    justify-content: start;
+    border: 3px var(--color-principal);
+    background-color: var(--color-principal);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.menuopcoes li {
+    padding: 20px;
+    border-right: 1px solid #bbb;
+}
+
+.menuopcoes a {
+    text-decoration: none;
+}
 h1{
     color: brown;
     left: 300px;
     font-size: 100px;
 
+  
+
+}
+main{
+height: 750px;
+width: 100%;
+
 }
 
+.footer {
+    margin-top: 10px;
+    background-color: var(--cor-principal);
+    color: blue;
+    padding: 20px;
+  }
+  
+  @media screen and (max-width: 600px)
+  {
+              .main, 
+              .menu-navegacao, 
+              .titulo-sapataria, 
+              .subtitulo-pagina, 
+              .banner,
+              .titulo-artigo,
+              .paragrafo-artigo,
+              .vitrine-produtos
+              {
+                width: 100%;
+              }
+  
+              .main{
+                margin: 0px;
+                padding: 0px;
+              }
+
+            }
